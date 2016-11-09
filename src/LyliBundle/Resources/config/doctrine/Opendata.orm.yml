@@ -1,0 +1,45 @@
+LyliBundle\Entity\Opendata:
+    type: entity
+    table: null
+    repositoryClass: LyliBundle\Repository\OpendataRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        type:
+            type: string
+            length: 255
+        adresse:
+            type: string
+            length: 255
+        codepostal:
+            type: string
+            length: 255
+        commune:
+            type: string
+            length: 255
+        telephone:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        siteweb:
+            type: string
+            length: 255
+        tarifsmin:
+            type: string
+            length: 255
+        tarifsmax:
+            type: string
+            length: 255
+        coordinates:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
