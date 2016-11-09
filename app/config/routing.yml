@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+lyli:
+    resource: "@LyliBundle/Resources/config/routing.yml"
+    prefix:   /
+

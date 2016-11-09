@@ -1,0 +1,3 @@
+lyli_homepage:
+    path:     /
+    defaults: { _controller: LyliBundle:Default:index }

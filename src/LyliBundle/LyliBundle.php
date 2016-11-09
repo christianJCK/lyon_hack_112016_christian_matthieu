@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace LyliBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class LyliBundle extends Bundle
 {
 }
