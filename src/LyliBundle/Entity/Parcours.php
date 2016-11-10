@@ -30,12 +30,12 @@ class Parcours
     /**
      * @var string
      */
-    private $setp2;
+    private $step2;
 
     /**
      * @var string
      */
-    private $setp3;
+    private $step3;
 
 
     /**
@@ -121,51 +121,51 @@ class Parcours
     }
 
     /**
-     * Set setp2
+     * Set step2
      *
-     * @param string $setp2
+     * @param string $step2
      *
      * @return Parcours
      */
-    public function setSetp2($setp2)
+    public function setStep2($step2)
     {
-        $this->setp2 = $setp2;
+        $this->step2 = $step2;
 
         return $this;
     }
 
     /**
-     * Get setp2
+     * Get step2
      *
      * @return string
      */
-    public function getSetp2()
+    public function getStep2()
     {
-        return $this->setp2;
+        return $this->step2;
     }
 
     /**
-     * Set setp3
+     * Set step3
      *
-     * @param string $setp3
+     * @param string $step3
      *
      * @return Parcours
      */
-    public function setSetp3($setp3)
+    public function setStep3($step3)
     {
-        $this->setp3 = $setp3;
+        $this->step3 = $step3;
 
         return $this;
     }
 
     /**
-     * Get setp3
+     * Get step3
      *
      * @return string
      */
-    public function getSetp3()
+    public function getStep3()
     {
-        return $this->setp3;
+        return $this->step3;
     }
 }
 

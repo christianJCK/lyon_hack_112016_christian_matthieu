@@ -18,10 +18,10 @@ LyliBundle\Entity\Parcours:
         step1:
             type: string
             length: 255
-        setp2:
+        step2:
             type: string
             length: 255
-        setp3:
+        step3:
             type: string
             length: 255
     lifecycleCallbacks: {  }
