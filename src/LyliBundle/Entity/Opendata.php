@@ -65,7 +65,12 @@ class Opendata
     /**
      * @var string
      */
-    private $coordinates;
+    private $longitude;
+
+    /**
+     * @var string
+     */
+    private $latitude;
 
 
     /**
@@ -319,15 +324,39 @@ class Opendata
     }
 
     /**
-     * Set coordinates
+     * Set Longitude
      *
-     * @param string $coordinates
+     * @param string $longitude
      *
      * @return Opendata
      */
-    public function setCoordinates($coordinates)
+    public function setLongitude($longitude)
     {
-        $this->coordinates = $coordinates;
+        $this->longitude = $longitude;
+
+        return $this;
+    }
+
+    /**
+     * Get Longitude
+     *
+     * @return string
+     */
+    public function getLongitude()
+    {
+        return $this->longitude;
+    }
+
+    /**
+     * Set coordinates
+     *
+     * @param string $latitude
+     *
+     * @return Opendata
+     */
+    public function setLatitude($latitude)
+    {
+        $this->latitude = $latitude;
 
         return $this;
     }
@@ -337,9 +366,9 @@ class Opendata
      *
      * @return string
      */
-    public function getCoordinates()
+    public function getLatitude()
     {
-        return $this->coordinates;
+        return $this->latitude;
     }
 }
 

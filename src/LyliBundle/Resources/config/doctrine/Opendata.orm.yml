@@ -39,7 +39,10 @@ LyliBundle\Entity\Opendata:
         tarifsmax:
             type: string
             length: 255
-        coordinates:
+        longitude:
+            type: string
+            length: 255
+        latitude:
             type: string
             length: 255
     lifecycleCallbacks: {  }

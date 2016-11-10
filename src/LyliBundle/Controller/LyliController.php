@@ -14,7 +14,7 @@ class LyliController extends Controller
         return $this->render('front/index.html.twig');
     }
 
-   /* public function arrayAction()
+    /*public function arrayAction()
     {
         $string = file_get_contents($this->get('kernel')->getRootDir()."/../web/rdata.json");
         $data = json_decode($string, true);
@@ -33,8 +33,8 @@ class LyliController extends Controller
             $open->setSiteweb($site["properties"]["siteweb"]);
             $open->setTarifsmin($site["properties"]["tarifsmin"]);
             $open->setTarifsmax($site["properties"]["tarifsmax"]);
-            $open->setCoordinates($site["geometry"]["coordinates"][0]);
-            $open->setCoordinates($site["geometry"]["coordinates"][1]);
+            $open->setLongitude($site["geometry"]["coordinates"][0]);
+            $open->setLatitude($site["geometry"]["coordinates"][1]);
 
             $em->persist($open);
         }
