@@ -1,0 +1,27 @@
+LyliBundle\Entity\Parcours:
+    type: entity
+    table: null
+    repositoryClass: LyliBundle\Repository\ParcoursRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        type:
+            type: string
+            length: 255
+        step1:
+            type: string
+            length: 255
+        setp2:
+            type: string
+            length: 255
+        setp3:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
