@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     {% block stylesheet %}{% endblock %}
     </head>
     <body>
@@ -28,8 +29,10 @@
         {% endif %}
 
         <div>
+            <div id="log">
             {% block fos_user_content %}
             {% endblock fos_user_content %}
+            </div>
         </div>
     </body>
 {% block body %}{% endblock %}
