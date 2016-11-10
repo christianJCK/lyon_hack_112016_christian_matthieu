@@ -1,3 +1,4 @@
 lyli_front:
     resource: "@LyliBundle/Resources/config/routing/front.yml"
     prefix:    /
+

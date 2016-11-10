@@ -1,0 +1,23 @@
+LyliBundle\Entity\User:
+    type:  entity
+    table: lyli_user
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+
+        country:
+            type: string
+            length: 255
+            nullable: true
+        city:
+            type: string
+            length: 255
+            nullable: true
+        language:
+            type: string
+            length: 255
+            nullable: true
+
