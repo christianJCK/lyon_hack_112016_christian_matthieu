@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    {% block stylesheet %}{% endblock %}
     </head>
     <body>
         <div>
@@ -28,7 +30,9 @@
         <div>
             {% block fos_user_content %}
             {% endblock fos_user_content %}
-            boobs
         </div>
     </body>
+{% block body %}{% endblock %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+{% block javascript %}{% endblock %}
 </html>
