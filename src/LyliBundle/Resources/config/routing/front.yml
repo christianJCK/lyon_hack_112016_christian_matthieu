@@ -1,0 +1,9 @@
+front_homepage:
+    path: /
+    defaults: { _controller: "LyliBundle:Lyli:index"}
+    methods: GET
+
+front_array:
+    path: /array
+    defaults: { _controller: "LyliBundle:Lyli:array"}
+    methods: GET
